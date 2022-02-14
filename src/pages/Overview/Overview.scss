@@ -1,0 +1,10 @@
+.overview {
+    padding: 30px;
+    box-sizing: border-box;
+    width: 100%;
+    .overview-table {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}

@@ -1,0 +1,41 @@
+.tableButton {
+    width: 250px;
+    height: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    background: #fff;
+    &:hover {
+        border: 2px solid #3751FF;
+        h3 {
+            color: #3751FF;
+        }
+
+        h1 {
+            color: #3751FF;
+        }
+    }
+    h3 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 19px;
+        line-height: 24px;
+        text-align: center;
+        letter-spacing: 0.4px;
+        color: #9FA2B4;
+        margin-bottom: 50px;
+    }
+    h1 {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 40px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: 1px;
+        color: #252733;
+    }
+}

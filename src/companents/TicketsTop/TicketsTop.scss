@@ -1,0 +1,52 @@
+.ticket-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    .yozuv {
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 30px;
+        letter-spacing: 0.3px;
+        color: #252733;
+    }
+    .ticket-top-right {
+        display: flex;
+        align-items: center;
+        img {
+            cursor: pointer;
+            border-radius: 50%;
+            &:hover {
+                box-shadow: 0px 0px 10px #be1f1f;
+            }
+        }
+        .sub {
+            margin: 0 32px;
+            padding-right: 24px;
+            border-right: 1px solid #DFE0EB;
+            cursor: pointer;
+            fill: #C5C7CD;
+            &:hover {
+                fill: #bb1313;
+            }
+        }
+        .lupa {
+            fill: #C5C7CD;
+            cursor: pointer;
+            &:hover {
+                fill: #5f5fe0;
+            }
+        }
+        span {
+            font-style: normal;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 20px;
+            text-align: right;
+            letter-spacing: 0.2px;
+            color: #252733;
+            margin-right: 14px;
+        }
+    }
+}

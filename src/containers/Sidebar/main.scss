@@ -1,0 +1,42 @@
+.sidebar {
+  background: #363740;
+  max-height: 100vh;
+  min-height: 100vh;
+  padding: 32px 0;
+  box-sizing: border-box;
+
+  .button-link {
+    text-decoration: none;
+  }
+
+  .sidebar-border {
+    margin: 16px 0;
+    border-bottom: 1px solid rgba(223, 224, 235, 0.06);
+}
+
+  .logo-holder {
+    display: flex;
+    align-items: center;
+    padding: 0px 24px;
+    margin-bottom: 60px;
+    text-decoration: none;
+
+    .sidebar-logo {
+      width: 32px;
+      height: 32px;
+      object-fit: contain;
+      margin-right: 12px;
+    }
+
+    span{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 19px;
+      line-height: 24px;
+      letter-spacing: 0.4px;
+      color: #A4A6B3;
+      opacity: 0.7;
+      width: 140px;
+    }
+  }
+}
